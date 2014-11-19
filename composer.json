@@ -17,10 +17,6 @@
 		},
 		{
 			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago"
-		},
-		{
-			"type": "hg",
 			"url": "http://scm.golek.biz/scm/hg/Conpago.Auth"
 		},
 		{
@@ -35,7 +31,6 @@
 	"require": {
 		"saigon/conpago-utils": "dev-master",
 		"saigon/conpago-di": "dev-master",
-		"saigon/conpago": "dev-master",
 		"saigon/conpago-auth-contract": "dev-master",
 		"saigon/conpago-auth": "dev-master"
 	},
