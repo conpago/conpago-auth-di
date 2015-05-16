@@ -1,8 +1,9 @@
 {
 	"name": "saigon/conpago-auth-di",
-	"description": "Conpago.Auth.DI",
+	"description": "Conpago framework authorization module for dependency injection.",
 	"version": "0.0.1-alpha",
 	"type": "library",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Bartosz Gołek",
@@ -10,29 +11,11 @@
 			"homepage": "http://bartosz.golek.biz"
 		}
 	],
-	"repositories": [
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.DI"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Auth"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Utils"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Auth.Contract"
-		}
-	],
 	"require": {
-		"saigon/conpago-utils": "dev-master",
-		"saigon/conpago-di": "dev-master",
-		"saigon/conpago-auth-contract": "dev-master",
-		"saigon/conpago-auth": "dev-master"
+		"saigon/conpago-utils": "dev-default",
+		"saigon/conpago-di": "dev-default",
+		"saigon/conpago-auth-contract": "dev-default",
+		"saigon/conpago-auth": "dev-default"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
