@@ -12,10 +12,10 @@
 		}
 	],
 	"require": {
-		"conpago/conpago-utils": "dev-default",
-		"conpago/conpago-di": "dev-default",
-		"conpago/conpago-auth-contract": "dev-default",
-		"conpago/conpago-auth": "dev-default"
+		"conpago/conpago-utils": "dev-master",
+		"conpago/conpago-di": "dev-master",
+		"conpago/conpago-auth-contract": "dev-master",
+		"conpago/conpago-auth": "dev-master"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
