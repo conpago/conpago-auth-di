@@ -6,21 +6,21 @@
 	 * Time: 23:04
 	 */
 
-	namespace Saigon\Conpago\Auth;
+	namespace Conpago\Auth;
 
-	use Saigon\Conpago\DI\IContainerBuilder;
-	use Saigon\Conpago\DI\IModule;
+	use Conpago\DI\IContainerBuilder;
+	use Conpago\DI\IModule;
 
 	class AuthModule implements IModule
 	{
 		public function build(IContainerBuilder $builder)
 		{
 			$builder
-				->registerType('Saigon\Conpago\Auth\Session')
-				->asA('Saigon\Conpago\Auth\Contract\ISession');
+				->registerType('Conpago\Auth\Session')
+				->asA('Conpago\Auth\Contract\ISession');
 
 			$builder
-				->registerType('Saigon\Conpago\Auth\SessionManager')
-				->asA('Saigon\Conpago\Auth\Contract\ISessionManager');
+				->registerType('Conpago\Auth\SessionManager')
+				->asA('Conpago\Auth\Contract\ISessionManager');
 		}
 	}

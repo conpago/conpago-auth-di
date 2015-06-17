@@ -1,5 +1,5 @@
 {
-	"name": "saigon/conpago-auth-di",
+	"name": "conpago/conpago-auth-di",
 	"description": "Conpago framework authorization module for dependency injection.",
 	"version": "0.0.1-alpha",
 	"type": "library",
@@ -12,10 +12,10 @@
 		}
 	],
 	"require": {
-		"saigon/conpago-utils": "dev-default",
-		"saigon/conpago-di": "dev-default",
-		"saigon/conpago-auth-contract": "dev-default",
-		"saigon/conpago-auth": "dev-default"
+		"conpago/conpago-utils": "dev-default",
+		"conpago/conpago-di": "dev-default",
+		"conpago/conpago-auth-contract": "dev-default",
+		"conpago/conpago-auth": "dev-default"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
@@ -26,7 +26,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\Auth\\": "src/"
+			"Conpago\\Auth\\": "src/"
 		}
 	}
 }
